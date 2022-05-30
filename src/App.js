@@ -9,6 +9,8 @@ import {AxiosTest} from "./components/AxiosTest";
 import NavAppTest from "./NavTest/NavAppTest";
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import JsonComponent from "./jsondata/JsonComponent";
+import LoginComponent from "./components/LoginComponent";
+import ChangePasswordComponent from "./components/ChangePasswordComponent";
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
 				{/*</div>*/}
 				{/*<div className="container">*/}
 				{/*	<ScrollViewApp/>*/}
-
+				{/*<LoginComponent/>*/}
+				<ChangePasswordComponent/>
 
 				{/*</div>*/}
 				{/*<div>*/}
@@ -32,7 +35,8 @@ function App() {
 				{/*	<NavApp/>*/}
 				{/*	<AxiosTest/>*/}
 				{/*	<NavAppTest/>*/}
-					<JsonComponent/>
+				{/*	<JsonComponent/>*/}
+				{/*<CustomJsonComponent/>*/}
 				{/*</div>*/}
 				{/*<FooterComponent/>*/}
 
