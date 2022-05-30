@@ -2,13 +2,13 @@ import './App.css';
 import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
 import Task from "./components/Tasks";
-import RequestsDataComponent, {RequestsDataTest} from "./components/RequestsDataComponent";
+import RequestsDataComponent, {RequestsDataTest} from "./noncomponents/RequestsDataComponent";
 import NavApp from "./nav/NavApp";
 import ScrollViewApp from "./scrollview/ScrollViewApp";
-import {AxiosTest} from "./components/AxiosTest";
-import NavAppTest from "./NavTest/NavAppTest";
+import {AxiosTest} from "./noncomponents/AxiosTest";
+import NavigationComponent from "./components/NavigationComponent";
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
-import JsonComponent from "./jsondata/JsonComponent";
+import JsonComponent from "./components/JsonComponent";
 import LoginComponent from "./components/LoginComponent";
 import ChangePasswordComponent from "./components/ChangePasswordComponent";
 
@@ -17,15 +17,16 @@ function App() {
 	return (
 		<Router>
 			<div>
-				{/*<HeaderComponent/>*/}
-				{/*<div className="container">*/}
-				{/*	<NavAppTest/>*/}
+				<HeaderComponent/>
+				<div className="container">
+					{/*<NavigationComponent/>*/}
+					<JsonComponent/>
 
-				{/*</div>*/}
+				</div>
 				{/*<div className="container">*/}
 				{/*	<ScrollViewApp/>*/}
 				{/*<LoginComponent/>*/}
-				<ChangePasswordComponent/>
+				{/*<ChangePasswordComponent/>*/}
 
 				{/*</div>*/}
 				{/*<div>*/}
@@ -34,11 +35,10 @@ function App() {
 				{/*	<Task/>*/}
 				{/*	<NavApp/>*/}
 				{/*	<AxiosTest/>*/}
-				{/*	<NavAppTest/>*/}
-				{/*	<JsonComponent/>*/}
-				{/*<CustomJsonComponent/>*/}
+				{/*	<NavigationComponent/>*/}
+
 				{/*</div>*/}
-				{/*<FooterComponent/>*/}
+				<FooterComponent/>
 
 
 			</div>
