@@ -4,7 +4,6 @@ import FooterComponent from "./components/FooterComponent";
 import RequestsDataComponent, {RequestsDataTest} from "./noncomponents/RequestsDataComponent";
 import NavApp from "./nav/NavApp";
 import ScrollViewApp from "./scrollview/ScrollViewApp";
-import {AxiosTest} from "./noncomponents/AxiosTest";
 import NavigationComponent from "./components/NavigationComponent";
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import JsonComponent from "./components/JsonComponent";
@@ -32,7 +31,6 @@ function App() {
 				{/*	<RequestsDataComponent/>*/}
 				{/*	<RequestsDataTest/>*/}
 				{/*	<NavApp/>*/}
-				{/*	<AxiosTest/>*/}
 				{/*	<NavigationComponent/>*/}
 
 				{/*</div>*/}
