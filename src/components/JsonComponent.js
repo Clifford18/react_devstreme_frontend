@@ -5,16 +5,21 @@ import {Column} from "devextreme-react/gantt";
 
 const columns = ['CompanyName', 'City', 'State', 'Phone', 'Fax'];
 
+const JSON_URL = 'https://js.devexpress.com/Demos/WidgetsGallery/JSDemos/data/customers.json';
+
 export default class JsonComponent extends React.Component {
 	render() {
 		return (
 			<DataGrid
-				dataSource="https://js.devexpress.com/Demos/WidgetsGallery/JSDemos/data/customers.json"
+				dataSource={JSON_URL}
 				defaultColumns={columns}
 				showBorders={true}
 			/>
 		);
 	}
+}
+
+	// const JSON_URL = 'http://localhost:9081/api/rest/request-logs';
 
 // export default class JsonComponent extends React.Component {
 // 	render() {
@@ -85,5 +90,5 @@ export default class JsonComponent extends React.Component {
 // 	}
 // }
 
-}
+
 
