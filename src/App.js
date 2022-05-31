@@ -1,7 +1,6 @@
 import './App.css';
 import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
-import Task from "./components/Tasks";
 import RequestsDataComponent, {RequestsDataTest} from "./noncomponents/RequestsDataComponent";
 import NavApp from "./nav/NavApp";
 import ScrollViewApp from "./scrollview/ScrollViewApp";
@@ -19,7 +18,7 @@ function App() {
 			<div>
 				<HeaderComponent/>
 				<div className="container">
-					{/*<NavigationComponent/>*/}
+					<NavigationComponent/>
 					<JsonComponent/>
 
 				</div>
@@ -32,7 +31,6 @@ function App() {
 				{/*<div>*/}
 				{/*	<RequestsDataComponent/>*/}
 				{/*	<RequestsDataTest/>*/}
-				{/*	<Task/>*/}
 				{/*	<NavApp/>*/}
 				{/*	<AxiosTest/>*/}
 				{/*	<NavigationComponent/>*/}
