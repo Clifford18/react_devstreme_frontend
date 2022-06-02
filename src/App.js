@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import JsonComponent from "./components/JsonComponent";
 import LoginComponent from "./components/LoginComponent";
 import ChangePasswordComponent from "./components/ChangePasswordComponent";
+import Profile from "./components/profile/profile";
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
 			<div>
 				<HeaderComponent/>
 				<div className="container">
-					<NavigationComponent/>
-					<JsonComponent/>
+					{/*<NavigationComponent/>*/}
+					{/*<JsonComponent/>*/}
+					<Profile/>
 
 				</div>
 				{/*<div className="container">*/}
