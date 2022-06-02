@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './profile.css';
+import './styles/profile.css';
 import Form from 'devextreme-react/form';
 
 export default function Profile() {
