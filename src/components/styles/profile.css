@@ -1,3 +1,4 @@
+/*Profile page css*/
 .form-avatar {
   float: left;
   height: 120px;
@@ -10,9 +11,4 @@
   background-color: #fff;
   overflow: hidden;
 
-  img {
-    height: 120px;
-    display: block;
-    margin: 0 auto;
-  }
 }
