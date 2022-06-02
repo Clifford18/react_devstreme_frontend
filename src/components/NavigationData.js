@@ -36,10 +36,17 @@ export const REQUESTLOGSTYPES = [{
 			options: [{
 				id: '2_1_1',
 				text: 'About Me '
-			}, {
-				id: '2_1_2',
-				text: 'Reset Password'
 			}]
-		}]
+		},
+			{
+				id: '2_2',
+				text: 'Reset Password',
+				title: 'ResetPassword',
+				description: 'Reset Password',
+				options: [{
+					id: '2_2_1',
+					text: 'Reset Password '
+				}]
+			}]
 	}
 ];
