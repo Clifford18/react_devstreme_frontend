@@ -7,7 +7,7 @@ const columns = ['CompanyName', 'City', 'State', 'Phone', 'Fax'];
 
 const JSON_URL = 'https://js.devexpress.com/Demos/WidgetsGallery/JSDemos/data/customers.json';
 
-export default class JsonComponent extends React.Component {
+export default class RequestsLogComponent extends React.Component {
 	render() {
 		return (
 			<DataGrid
@@ -21,7 +21,7 @@ export default class JsonComponent extends React.Component {
 
 	// const JSON_URL = 'http://localhost:9081/api/rest/request-logs';
 
-// export default class JsonComponent extends React.Component {
+// export default class RequestsLogComponent extends React.Component {
 // 	render() {
 // 		return (
 // 			<DataGrid
